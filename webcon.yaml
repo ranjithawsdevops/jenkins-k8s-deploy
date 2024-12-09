@@ -17,7 +17,7 @@ spec:
         env: dev
     spec:
       containers:
-        - image: ramasamy123/java:v1
+        - image: ramasamy123/addressbook:v1
           name: webcon
           imagePullPolicy: Always
           ports:
@@ -49,7 +49,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: "www.suryateck.com"
+    - host: "a209aaeb668ff408e923eece1d971222-2087542497.ap-south-1.elb.amazonaws.com"
       http:
         paths:
           - path: "/"
