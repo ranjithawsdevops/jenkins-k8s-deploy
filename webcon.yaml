@@ -17,7 +17,7 @@ spec:
         env: dev
     spec:
       containers:
-        - image: ramasamy123/addressbook:v1
+        - image: ramasamy123/wavecafe:v1
           name: webcon
           imagePullPolicy: Always
           ports:
