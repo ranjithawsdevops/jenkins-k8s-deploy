@@ -9,7 +9,7 @@ metadata:
 spec:
   containers:
   - name: webcon
-    image: ramasamy123/addressbook:v1
+    image: ramasamy123/wavecafe:v1
     imagePullPolicy: Always
     ports:
     - containerPort: 80
